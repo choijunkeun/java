@@ -21,7 +21,7 @@
 
 // 같은내용의 문자열 리터럴은 하나만 만들어진다.
 // ex) String s1 = "AAA" , String s2 = "AAA" ,  String s3 = "AAA" , String s4 = "BBB"
-// s1,s2,s3(0x100) -> 0x100("AAA")  이런 그림이 나옴.
+// s1,s2,s3(0x100) -> 0x100("AAA")  이런 그림이 나옴..
 
 public class ch9_4 {
     public static void main(String[] args) {
@@ -45,10 +45,10 @@ public class ch9_4 {
         System.out.println("s3가 참조하는 주소값 = " + System.identityHashCode(s3));
         // 같은내용의 문자열 리터럴은 한개만 만들어지기 떄문에 참조하는 주소값이 모두 같다.
 
-        String s4 = new String("ABC");
-        String s5 = new String("ABC");
-        System.out.println("s4가 참조하는 주소값 = " +System.identityHashCode(s4));
-        System.out.println("s5가 참조하는 주소값 = " +System.identityHashCode(s5));
+//        String s4 = new String("ABC");
+//        String s5 = new String("ABC");
+//        System.out.println("s4가 참조하는 주소값 = " +System.identityHashCode(s4));
+//        System.out.println("s5가 참조하는 주소값 = " +System.identityHashCode(s5));
         // new String을 이용하면 항상 새로운 문자열을 만들게 된다. 하지만 String클래스는 내용 변경이 불가하기 때문에 굳이 new String()을 이용해서 쓸 필요가 없다.
 
 
