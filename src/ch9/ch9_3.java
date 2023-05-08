@@ -1,4 +1,4 @@
-// hashCode() - 객체의 해시코드를 반환하는 메서드(정수값)
+package ch9;// hashCode() - 객체의 해시코드를 반환하는 메서드(정수값)
 // Object클래스의 hashCode()는 객체의 주소를 int로 변환해서 반환 (해쉬코드 = 객체의 지문)
 
 // equals()를 오버라이딩하면, hashCode()도 오버라이딩 해야 한다.

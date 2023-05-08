@@ -1,12 +1,12 @@
-# JAVA_Study✍️
+# JAVA
 
 ---
 
-JAVA Study💪
+JAVA Study
 
 - 사용언어 : JAVA11
 
-## 📖 목표 및 규칙
+### 목표 및 규칙
 
 ---
 

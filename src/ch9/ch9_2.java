@@ -1,4 +1,4 @@
-// equals() 메서드는 객체의 주소값을 비교하게 되어있다. 따라서 값을 비교하려면 오버라이딩 해서 내용을 바꿔줘야한다.
+package ch9;// equals() 메서드는 객체의 주소값을 비교하게 되어있다. 따라서 값을 비교하려면 오버라이딩 해서 내용을 바꿔줘야한다.
 
 public class ch9_2 {
     public static void main(String[] args) {
@@ -22,7 +22,7 @@ class Person {
 
     @Override
     public boolean equals(Object obj) {
-        //obj가 Person 타입이 아니면, 비교할 필요도 없으니 false
+        //obj가 ch9.Person 타입이 아니면, 비교할 필요도 없으니 false
         if (!(obj instanceof Person)) {
             return false;
         }
