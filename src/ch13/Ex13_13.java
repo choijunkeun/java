@@ -1,6 +1,6 @@
 package ch13;
 
-// 동기화 되어 있는 예제.
+// 동기화 되어 있는 예제....
 class Ex13_13 {
     public static void main(String[] args) {
         Runnable r = new RunnableEx13();
